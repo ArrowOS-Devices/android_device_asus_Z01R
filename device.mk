@@ -495,7 +495,7 @@ PRODUCT_TARGET_VNDK_VERSION := 29
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service-lazy \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
